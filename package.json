@@ -1,0 +1,30 @@
+{
+  "name": "vue2-pagination",
+  "version": "1.0.0",
+  "description": "pagination component for vue2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Away0x/vue2-pagination.git"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "component",
+    "pagination",
+    "vue-pagination",
+    "vue2-pagination"
+  ],
+  "author": "Away0x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Away0x/vue2-pagination/issues"
+  },
+  "homepage": "https://github.com/Away0x/vue2-pagination#readme",
+  "dependencies": {
+    "vue": "^2.0.3"
+  }
+}
