@@ -26,5 +26,17 @@
   "homepage": "https://github.com/Away0x/vue2-pagination#readme",
   "dependencies": {
     "vue": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "css-loader": "^0.25.0",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "vue-loader": "^9.7.0",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.2"
   }
 }
