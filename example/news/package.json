@@ -9,7 +9,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.0.1"
+    "mockjs": "^1.0.1-beta3",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3",
+    "vuex": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

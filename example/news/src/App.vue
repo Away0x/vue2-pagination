@@ -1,28 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <News></News>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import News from './components/News'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    News
   }
 }
 </script>
 
 <style>
+li {list-style: none;}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 500px;
+  margin: 0 auto;
 }
 </style>
