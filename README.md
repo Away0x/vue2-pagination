@@ -6,6 +6,6 @@
 - vuex + vue-resource + 分页
 
 ## 演示
-cd example/news
-npm install
-npm run dev
+- cd example/news
+- npm install
+- npm run dev
