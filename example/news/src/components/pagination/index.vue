@@ -108,6 +108,6 @@ export default {
 </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
   @import './index';
 </style>

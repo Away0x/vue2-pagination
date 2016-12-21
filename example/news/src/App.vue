@@ -16,9 +16,5 @@ export default {
 </script>
 
 <style>
-li {list-style: none;}
-#app {
-  width: 500px;
-  margin: 0 auto;
-}
+
 </style>

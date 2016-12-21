@@ -29,7 +29,6 @@ export default {
 
 
 <template lang="html">
-<div>
 
 
 <!-- BEGIN +++++++++++++++++ new +++++++++++++++ -->
@@ -38,10 +37,9 @@ export default {
   <form action="/test.php" method="POST">
     <label for="newsUp"><span></span></label>
     <textarea name="name" rows="8" cols="40" id="newsUp"></textarea>
-    <span>200字</span>
     <div class="clearfix">
       <i class="emoticon">表情</i><i class="images">图片</i><i class="video">视频</i><i class="attach">附件</i>
-      <input type="submit" value="发布">
+      <input type="submit" class="submit" value="发布">
     </div>
   </form>
 
@@ -84,10 +82,10 @@ export default {
 </div>
 <!-- END +++++++++++++++++ new +++++++++++++++ -->
 
-</div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
   @import './News';
-  .personalCenter-news-nav li.active {color: #019ce4;}
+  .personalCenter-news-nav li.active
+    color: #019ce4
 </style>
